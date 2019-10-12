@@ -1,0 +1,22 @@
+{
+  "name": "ne-node-parse-loader",
+  "version": "0.0.1",
+  "description": "Webpack SSR parse loader for netease",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "SSR",
+    "webpack",
+    "netease"
+  ],
+  "author": "wz102223205@sina.com",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.5.0",
+    "loader-utils": "^1.2.3",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}
