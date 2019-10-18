@@ -44,7 +44,8 @@ module: {
       {
         loader: 'ne-node-parse',
         options: {
-          data: articleData,
+          data: articleData.data,
+          // url is supported too, like: data: 'https://news.163.com/19/0902/16/EO350JR40001982U.html',
           channels: channels
         }
       }
@@ -52,3 +53,9 @@ module: {
   }]
 }
 ```
+
+## CHANGELOG
+
+### [0.0.2] - 2019-10-18
+#### add
+- data字段增加对文章页旧url的支持
