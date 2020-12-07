@@ -1,6 +1,6 @@
 # ne-node-parse-loader
 
-Webpack SSR parse loader for netease
+🏉Webpack SSR parse loader for netease
 
 一个简单的Webpack loader，用来模拟文章页服务端渲染效果，在文章页项目中使用。
 
@@ -59,3 +59,7 @@ module: {
 ### [0.0.2] - 2019-10-18
 #### add
 - data字段增加对文章页旧url的支持
+
+### [0.0.3] - 2020-12-07
+#### add
+- 设置encoding: null，以防转码失败
